@@ -25,12 +25,12 @@
 
 1. 이 레포지토리를 클론하거나 ZIP으로 다운로드합니다:
    ```bash
-   git clone https://github.com/leedonwoo2827-ship-it/company-data-manager.git
+   git clone https://github.com/leedonwoo2827-ship-it/company-data.git
    ```
 
 2. Claude Desktop을 실행합니다.
 
-3. `company-data-manager` 폴더를 Claude Desktop 창에 드래그 앤 드롭합니다.
+3. `company-data` 폴더를 Claude Desktop 창에 드래그 앤 드롭합니다.
 
 4. 스킬이 자동으로 설치되며, Claude가 사용 가능하다고 알려줍니다.
 
@@ -40,12 +40,12 @@ Claude Desktop의 Skills 디렉토리에 직접 복사:
 
 **Windows:**
 ```bash
-xcopy /E /I company-data-manager "%APPDATA%\Claude\skills\company-data-manager"
+xcopy /E /I company-data "%APPDATA%\Claude\skills\company-data"
 ```
 
 **macOS/Linux:**
 ```bash
-cp -r company-data-manager ~/.config/Claude/skills/
+cp -r company-data ~/.config/Claude/skills/
 ```
 
 ## 사용 방법
@@ -81,7 +81,7 @@ Claude Desktop에서 자연스럽게 요청하세요:
 이 스킬은 다음 워크플로우에서 2단계에 해당합니다:
 
 1. **rfp-analyzer** - RFP 분석 및 구조 추출
-2. **company-data-manager** (이 스킬) - 회사 자료 분석 및 매칭
+2. **company-data** (이 스킬) - 회사 자료 분석 및 매칭
 3. **proposal-writer** - 제안서 초안 작성
 4. **hwpx-writer** - HWPX 파일 생성
 5. **text2img-mcp** - 이미지 생성
