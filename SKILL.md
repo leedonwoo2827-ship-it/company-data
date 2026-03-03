@@ -1,5 +1,5 @@
 ---
-name: company-data-manager
+name: company-data
 description: 회사의 기존 자료(워드, 엑셀, SRT 파일 등)에서 제안서 작성을 위한 소스 데이터를 관리하고 추출하는 스킬
 ---
 
